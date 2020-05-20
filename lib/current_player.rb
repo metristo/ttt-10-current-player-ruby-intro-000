@@ -1,11 +1,8 @@
-require 'pry'
-
-def turn_count(board)
+def turn_count(board1)
   counter = 0
-  board.each do |token|
+  board1.each do |token|
     if token == "X" || "O"
       counter += 1
-      binding.pry
     end
   end
   counter
