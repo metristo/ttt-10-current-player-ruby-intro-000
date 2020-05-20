@@ -1,7 +1,7 @@
-def turn_count(board)
+def turn_count(board1)
   counter = 0
-  board.each do |token|
-    if [board] == "X" || "O"
+  board1.each do |token|
+    if board1 == "X" || "O"
       counter += 1
     end
   end
